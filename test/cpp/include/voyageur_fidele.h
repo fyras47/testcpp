@@ -10,6 +10,7 @@ class voyageur_fidele : public voyageur
         voyageur_fidele();
         virtual ~voyageur_fidele();
         voyageur_fidele(int ,int ,int , float);
+        float get_reduction(){return this ->reduction;};
 
     protected:
 
