@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1655380326 source:c:\users\jo\desktop\testcpp\test\cpp\main.cpp
+	<iostream>
+	"voyageur.h"
+	"voyageur_fidele.h"
+	<vector>
+	"avion.h"
+
+1655379684 source:c:\users\jo\desktop\testcpp\test\cpp\src\voyageur.cpp
+	"voyageur.h"
+
+1655380163 c:\users\jo\desktop\testcpp\test\cpp\include\voyageur.h
+	<iostream>
+
+1655379856 source:c:\users\jo\desktop\testcpp\test\cpp\src\voyageur_fidele.cpp
+	"voyageur_fidele.h"
+
+1655379859 c:\users\jo\desktop\testcpp\test\cpp\include\voyageur_fidele.h
+	<voyageur.h>
+
+1655380090 source:c:\users\jo\desktop\testcpp\test\cpp\src\compagnie.cpp
+	"compagnie.h"
+
+1655380326 c:\users\jo\desktop\testcpp\test\cpp\include\compagnie.h
+	<iostream>
+	"voyageur.h"
+	"voyageur_fidele.h"
+	"avion.h"
+	<vector>
+
+1655380929 source:c:\users\jo\desktop\testcpp\test\cpp\src\avion.cpp
+	"avion.h"
+
+1655380234 c:\users\jo\desktop\testcpp\test\cpp\include\avion.h
+	<iostream>
+	<voyageur.h>
+	<voyageur.h>
+	<vector>
+
