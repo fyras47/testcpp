@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1655333038 source:c:\users\jo\desktop\testcpp\test\main.cpp
+	<iostream>
+
+1655365052 source:c:\users\jo\desktop\testcpp\test\src\billet.cpp
+	"billet.h"
+
+1655365427 c:\users\jo\desktop\testcpp\test\include\billet.h
+
+1655365240 source:c:\users\jo\desktop\testcpp\test\src\billet_vip.cpp
+	"billet_vip.h"
+
+1655365243 c:\users\jo\desktop\testcpp\test\include\billet_vip.h
+	<billet.h>
+
