@@ -10,7 +10,11 @@ class salle
     public:
         salle();
         virtual ~salle();
-
+        int get_num(){return this -> num_s;};
+        int get_cap(){return this -> capacite;};
+        int get_size(){return this -> lb.size();};
+        bool ajout_billet(int numero);
+        float get_revenu();
     protected:
 
     private:

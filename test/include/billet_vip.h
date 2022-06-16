@@ -10,6 +10,7 @@ class billet_vip : public billet
         billet_vip();
         virtual ~billet_vip();
         billet_vip(int  ,float  , int ,int );
+        int get_reduc(){return this->pourcentage_de_red;};
 
     protected:
 
